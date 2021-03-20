@@ -10,5 +10,10 @@ fi
 
 chmod +x initialize.sh
 chmod +x autotemp
+chmod +x remove.sh
 
 sudo cp autotemp /bin/
+sudo cp help.txt "$HOME/.config/Autotemp/"
+echo "This is a small project to create and manage templates made by Prathamesh and Sahil"
+echo "Script Loaded"
+autotemp --help

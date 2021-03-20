@@ -1,6 +1,11 @@
-# Template Automater 
+NAME:
+    autotemp - Manages templates made by user to be used before starting any project.
 
-###  Description
+
+SYNOPSIS:
+    autotemp [OPTION]... [FILE]...
+
+DESCRIPTION
        Creates and Manages templates which can be used while starting a project
 
        --add, 
@@ -31,11 +36,9 @@
             Displays how to use the commands and other usages
             Usage: autotemp --help (or) autotemp --h
 
-### Installation
-    - git clone "https://github.com/Crois-En-Toi/Template-Automater.git"
-    - cd to given folder
-    - ./initialize.sh (Run This command)
-
-
-### AUTHOR
+AUTHOR
        Written by Prathamesh Desai and Sahil.
+
+REPORTING BUGS
+       Contact : "crois.en.toi180321@gmail.com".
+
