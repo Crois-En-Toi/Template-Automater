@@ -21,6 +21,9 @@ then
 elif [[ $1 == "-pf" ]]
 then
     more "$HOME/.config/Autotemp/templates/$2.txt"
+elif [[ $1 == "-p" ]]
+then 
+    cat "$HOME/.config/Autotemp/templates/$2.txt" >> "$3"
 else
     if [[ $# -eq 1 ]]
     then
