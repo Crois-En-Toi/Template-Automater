@@ -13,7 +13,7 @@ then
         echo "Template $2 succesfully created the contents are:"
         echo "=================================================="
         printf "\n"
-        echo "Run the "
+        cat "$HOME/.config/Autotemp/templates/$2.txt"
     fi
 elif [[ $1 == "-l" ]]
 then
