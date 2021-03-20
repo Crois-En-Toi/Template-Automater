@@ -7,3 +7,8 @@ then
 else
     mkdir -p $HOME/.config/Autotemp/templates
 fi
+
+chmod +x initialize.sh
+chmod +x autotemp
+
+sudo cp autotemp /bin/
