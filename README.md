@@ -5,6 +5,9 @@
        Strictly for linux users 
        Creates and Manages templates which can be used while starting a project
 
+       $ autotemp TemplateName file1 file2 file3 ...  
+            To add template content to given files
+
        --add, 
             Adds a template which can be used later
             Usage: autotemp --add TemplateName 
