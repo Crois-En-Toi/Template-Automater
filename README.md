@@ -1,6 +1,8 @@
 # Template Automater 
 
 ###  Description
+
+       Strictly for linux users 
        Creates and Manages templates which can be used while starting a project
 
        --add, 
